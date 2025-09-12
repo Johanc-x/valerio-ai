@@ -1,0 +1,150 @@
+text,intent
+price a call S=100 K=105 r=2.5% sigma=25% T=0.5,calc_black_scholes
+calcula black scholes S=90 K=95 r=3% sigma=20% T=1 call,calc_black_scholes
+precio de una opción call con S=120 K=100 r=0.02 sigma=0.3 T=0.25,calc_black_scholes
+compute Black–Scholes call S=80 K=85 r=1% sigma=18% T=0.3,calc_black_scholes
+black scholes for put S=110 K=115 r=2% sigma=22% T=0.4,calc_black_scholes
+calculate var from returns alpha 5% horizon 1 sims 10000,calc_var
+calcula VaR con alfa 5% horizonte 10 días y 20000 simulaciones,calc_var
+need value at risk with alpha 0.01 horizon 5 sims 5000,calc_var
+VaR al 95% para esta serie de retornos,calc_var
+calcula el VaR montecarlo con 100000 simulaciones,calc_var
+predict risk for row 0,ml_predict
+haz la predicción de riesgo para la fila 10,ml_predict
+what is the model prediction for row 25,ml_predict
+predict probability for row 3,ml_predict
+modelo: predice la fila 5,ml_predict
+hello,other
+hola,other
+what can you do?,other
+que sabes hacer,other
+help,other
+black scholes call S=100 K=95 r=2% sigma=15% T=1,calc_black_scholes
+precio BS de un call con S=120 K=110 r=0.02 sigma=0.30 T=0.5,calc_black_scholes
+BS para put s=95 k=100 r=1.5% sigma=0.22 t=0.5,calc_black_scholes
+calcula precio de opción put S=80 K=85 r=1% sigma=18% T=0.3,calc_black_scholes
+black-scholes: s=110 k=115 r=2% vol=22% t=0.4 put,calc_black_scholes
+precio black scholes para call con S=100 K=105 r=2.5% sigma=25% T=0.5,calc_black_scholes
+BS call s=90 k=95 r=3% vol=20% t=1,calc_black_scholes
+cálculo BS call S=70 K=65 r=0.5% sigma=35% T=2,calc_black_scholes
+compute black scholes put s=130 k=140 r=2% sigma=0.18 t=0.75,calc_black_scholes
+black scholes price for call s=105 k=100 r=1% sigma=0.2 t=0.25,calc_black_scholes
+VaR 95% 5 días sobre 200k,calc_var
+calcula var con nivel 99% y horizonte 10 días,calc_var
+necesito el var al 97.5% en 1 día para 1M,calc_var
+var 90% horizonte 20 dias monto 50k,calc_var
+valor en riesgo 95% a 5 dias,calc_var
+VaR al 99% para este portafolio (5 días),calc_var
+calcular VaR 95% en 10 días para 300k,calc_var
+VaR con nivel 90% horizonte 1 día,calc_var
+var 97.5% a 2 semanas,calc_var
+value at risk 95 percent 5 days 200k,calc_var
+predict row 7,ml_predict
+predicción para la fila 12,ml_predict
+modelo: predice la fila 3,ml_predict
+what is the prediction for row 25?,ml_predict
+risk for row 0,ml_predict
+haz la predicción de riesgo para la fila 10,ml_predict
+row=8 prediction,ml_predict
+fila 5 predice,ml_predict
+predict probability for row 3,ml_predict
+risk prediction for row 15,ml_predict
+ayuda,help
+help,help
+qué puedes hacer?,help
+how can you help me?,help
+comandos disponibles,help
+hola,other
+hello,other
+buenos días,other
+gracias,other
+quién eres,other
+qué tal,other
+random text,other
+no sé,other
+¿qué tal?,help
+qué tal,help
+qué tal?,help
+¿qué hay?,help
+buenas,help
+"buenas, ¿qué haces?",help
+"hola, ¿qué puedes hacer?",help
+ayuda,help
+menu,help
+qué puedes hacer,help
+help,help
+calcula var simple con nivel 95% y horizonte 10 días,calc_var_simple
+var simple 99% en 5 días para 200k,calc_var_simple
+simple VaR 97.5% horizonte 1 día,calc_var_simple
+necesito el VaR simple al 90% en 20 días,calc_var_simple
+compute simple var with alpha 5% horizon 10,calc_var_simple
+var simple al 95% para este portafolio en 1 semana,calc_var_simple
+calcular VaR simple 99% en 10 días para 300k,calc_var_simple
+VaR simple con nivel 97.5% horizonte 2 días,calc_var_simple
+simple value at risk 95 percent 5 days amount 50000,calc_var_simple
+var simple 90% horizonte 1 mes monto 1M,calc_var_simple
+calcula el valor en riesgo simple al 95% para 10 días,calc_var_simple
+VaR simple al 99% para un horizonte de 15 días,calc_var_simple
+quiero el VaR simple con nivel 95% y horizonte 7 días,calc_var_simple
+simple var 97.5% en 3 días para 200k,calc_var_simple
+value at risk simple 95 percent 10 days 100000,calc_var_simple
+calcula CAPM con rf=2% beta=1.2 rm=8%,calc_capm
+"CAPM esperado con beta 0.9, rf 3%, rm 7%",calc_capm
+retorno con CAPM usando rf 0.01 beta 1.5 rm 0.06,calc_capm
+calcula modelo CAPM con datos de ejemplo,calc_capm
+expected return with CAPM beta 1.3 rf=2% rm=10%,calc_capm
+"optimiza portafolio markowitz con rendimientos [0.1,0.15,0.2] y covarianza [[0.005,-0.010,0.004],[-0.010,0.040,-0.002],[0.004,-0.002,0.023]]",calc_markowitz
+haz un análisis de markowitz con 3 activos,calc_markowitz
+calcular frontera eficiente markowitz,calc_markowitz
+optimización de portafolio con markowitz,calc_markowitz
+efficient frontier markowitz portfolio,calc_markowitz
+"Hola Valerio, calcula Black–Scholes con S=100, K=105, r=2%, sigma=25%, T=1",calc_black_scholes
+"Valerio, por favor dime el precio Black–Scholes con S=50, K=55, r=0.03, sigma=0.2, T=0.5",calc_black_scholes
+"Hey Valerio, ¿puedes calcular Black–Scholes con S=200, K=210, r=0.01, sigma=30%, T=2?",calc_black_scholes
+"Valerio, calcula la opción put con Black–Scholes S=80, K=90, r=5%, sigma=15%, T=1.5",calc_black_scholes
+"Hola, necesito el modelo Black–Scholes para un call S=120, K=125, r=0.04, sigma=0.18, T=0.75",calc_black_scholes
+"Hola Valerio, calcula CAPM con rf=0.02, beta=1.2, rm=0.08",calc_capm
+"Valerio, dime el CAPM si rf=3%, beta=0.9 y rm=7%",calc_capm
+"Por favor Valerio, calcula CAPM con tasa libre 0.01, beta 1.5, mercado 0.06",calc_capm
+"Hey Valerio, ¿puedes sacar el retorno esperado por CAPM con rf=2%, beta=1.1, rm=9%?",calc_capm
+"Hola, quiero que me digas el CAPM con rf=0.05, beta=0.8, rm=0.1",calc_capm
+"Hola Valerio, calcula el VaR 95% a 10 días con 200k usando histórico",calc_var
+"Valerio, dime el VaR 99% a 5 días con método EWMA",calc_var
+"Hey Valerio, ¿me calculas un VaR al 90% para 7 días de 500k?",calc_var
+"Valerio, por favor, calcula el VaR 95% con horizonte 1 día",calc_var
+"Hola, quiero que estimes el VaR 99% con EWMA a 3 días",calc_var
+"Hola Valerio, optimiza un portafolio con rend=[0.1,0.15,0.2] y cov=[[0.005,-0.010,0.004],[-0.010,0.040,-0.002],[0.004,-0.002,0.023]]",calc_markowitz
+"Valerio, calcula Markowitz con tres activos, rendimientos 10%, 12%, 15% y covarianzas dadas",calc_markowitz
+"Hey Valerio, ¿puedes optimizar Markowitz con rend=[0.05,0.07] y cov=[[0.002,0.001],[0.001,0.003]]?",calc_markowitz
+"Por favor Valerio, ejecuta Markowitz con un portafolio sencillo de dos activos",calc_markowitz
+"Hola, hazme la optimización de Markowitz con datos ficticios de rendimientos y covarianzas",calc_markowitz
+"Hola Valerio, predice la fila 10",ml_predict
+"Valerio, dime la predicción para row=5",ml_predict
+"Hey Valerio, ¿puedes hacer la predicción de la fila 12?",ml_predict
+"Valerio, por favor haz el cálculo de ML en la fila 20",ml_predict
+"Hola, necesito la predicción de ML para row=7",ml_predict
+"Hola Valerio, predíceme el riesgo con zscore=2.1 volatility=0.15 returns=0.08 debt_ratio=0.3",predict_risk
+"Valerio, calcula el riesgo usando zscore 1.8, volatilidad 0.12, retornos 0.05 y ratio de deuda 0.4",predict_risk
+Quiero una predicción de riesgo con zscore=3.0 volatility=0.2 returns=0.1 debt_ratio=0.6,predict_risk
+"Risk prediction with zscore 2.5, volatility 0.18, returns 0.07, debt ratio 0.45",predict_risk
+"Valerio, dame el diagnóstico de riesgo: zscore=1.2, volatility=0.3, returns=0.02, debt_ratio=0.7",predict_risk
+"Valerio, predice TSLA para 7 días con Random Forest",predict_stock
+"Valerio, dame la predicción de AAPL con XGBoost para 5 días",predict_stock
+Quiero que calcules la predicción de MSFT para los próximos 3 días usando SVM,predict_stock
+Predice Google con regresión logística para 10 días,predict_stock
+Dime la predicción bursátil de Amazon con Random Forest a 2 días,predict_stock
+"Valerio, predict TSLA for the next 7 days with Random Forest",predict_stock
+"Valerio, give me the prediction of AAPL using XGBoost for 5 days",predict_stock
+Predict MSFT stock for the next 3 days using SVM,predict_stock
+Forecast Google with Logistic Regression for 10 days,predict_stock
+What is the stock prediction of Amazon using Random Forest over 2 days,predict_stock
+"Valerio, haz una simulación Monte Carlo con S0=100 mu=0.05 sigma=0.2 T=1 steps=252 sims=10000",calc_montecarlo
+"Quiero ejecutar un modelo de Monte Carlo para estimar precios futuros",calc_montecarlo
+"Simulación Monte Carlo con parámetros iniciales S0=120 sigma=0.3 mu=0.04",calc_montecarlo
+"Valerio, corre una predicción usando Monte Carlo",calc_montecarlo
+"Ejecuta Monte Carlo para 5000 simulaciones y un horizonte de 1 año",calc_montecarlo
+"Simula trayectorias de precios con el modelo Monte Carlo",calc_montecarlo
+"Necesito una simulación de Monte Carlo para proyectar riesgo",calc_montecarlo
+"Monte Carlo con 10000 pasos para estimar la volatilidad esperada",calc_montecarlo
+"Valerio, aplica Monte Carlo al portafolio con S0=90 mu=0.06 sigma=0.25",calc_montecarlo
+"Por favor realiza un cálculo Monte Carlo de los rendimientos futuros",calc_montecarlo
