@@ -180,6 +180,7 @@ Valerio AI is designed to be scalable — ready to incorporate new datasets, ext
 
 ## 12.  Project Structure  
 
+```
 valerio-ai/
 ├── api/ # FastAPI endpoints
 ├── demo/ # Example responses & tests
@@ -187,7 +188,7 @@ valerio-ai/
 ├── img/ # Visual outputs (XGBoost, RF, Monte Carlo, Markowitz)
 ├── requirements.txt # Dependencies
 └── README.md # Main documentation
-
+```
 ---
 
 ## Author  
@@ -197,4 +198,5 @@ Bachelor in Economics, Master in Finance & Accounting
 DAM Student (Multiplatform Application Development)  
 
 [LinkedIn](https://www.linkedin.com/in/jhojancachay)  
+
 
